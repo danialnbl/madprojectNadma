@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/card_background">
+
+    <TextView
+        android:id="@+id/reportLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/reportTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_below="@id/reportLocation"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/reportType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:layout_below="@id/reportTime"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/reportSeverity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Severity"
+        android:layout_below="@id/reportType"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/reportDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_below="@id/reportSeverity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

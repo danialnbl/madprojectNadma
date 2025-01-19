@@ -59,10 +59,10 @@
 
     <!-- Community Reports Button -->
     <Button
-        android:id="@+id/btnCommunityReports"
+        android:id="@+id/btnHazardReports"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Community Reports"
+        android:text="Hazard Reports"
         android:backgroundTint="@color/purple_500"
         android:textColor="@android:color/white"
         android:layout_marginTop="8dp"/>
@@ -73,6 +73,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Emergency Services"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
         android:backgroundTint="@color/purple_500"
         android:textColor="@android:color/white"
         android:layout_marginTop="8dp"/>

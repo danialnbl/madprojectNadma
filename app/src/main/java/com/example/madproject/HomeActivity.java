@@ -23,10 +23,11 @@ public class HomeActivity extends AppCompatActivity {
         // Initialize buttons
         Button btnMultiHazardAlerts = findViewById(R.id.btnMultiHazardAlerts);
         Button btnInteractiveMaps = findViewById(R.id.btnInteractiveMaps);
-        Button btnCommunityReports = findViewById(R.id.btnCommunityReports);
+        Button btnHazardReports = findViewById(R.id.btnHazardReports);
         Button btnEmergencyServices = findViewById(R.id.btnEmergencyServices);
         Button btnLogout = findViewById(R.id.btnLogout);
         Button btnRegForm = findViewById(R.id.btnRegForm); // Registration button for Volunteer
+        Button btnProfile = findViewById(R.id.btnProfile); // Profile button)
 
         // Navigate to MultiHazardAlert activity
         btnMultiHazardAlerts.setOnClickListener(new View.OnClickListener() {
@@ -48,10 +49,11 @@ public class HomeActivity extends AppCompatActivity {
         });
 
         // Handle Community Reports button click (currently unimplemented)
-        btnCommunityReports.setOnClickListener(new View.OnClickListener() {
+        btnHazardReports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Handle Community Reports button click
+                Intent intent = new Intent(HomeActivity.this, ReportActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -87,6 +89,15 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Navigate to Volunteer Registration activity
                 Intent intent = new Intent(HomeActivity.this, VolunteerRegistrationActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navigate to Volunteer Registration activity
+                Intent intent = new Intent(HomeActivity.this, UserProfileActivity.class);
                 startActivity(intent);
             }
         });
