@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logomadapp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to MalaysiaSafe"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+    <!-- Multi-Hazard Alerts Button -->
+    <Button
+        android:id="@+id/btnMultiHazardAlerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi-Hazard Alerts"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Interactive Maps Button -->
+    <Button
+        android:id="@+id/btnInteractiveMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interactive Maps"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Volunteer Registration Form Button -->
+    <Button
+        android:id="@+id/btnRegForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form for Volunteer"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Community Reports Button -->
+    <Button
+        android:id="@+id/btnCommunityReports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Community Reports"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Emergency Services Button -->
+    <Button
+        android:id="@+id/btnEmergencyServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Services"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

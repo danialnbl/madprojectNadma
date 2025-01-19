@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">madproject</string>
+    <string name="registration_title">REGISTRATION</string>
+    <string name="welcome_to_malaysiasafe">Welcome to MalaysiaSafe</string>
+    <string name="app_logo">App Logo</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already Have an account? Login</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="title_activity_bencana_map">BencanaMap</string>
+</resources>

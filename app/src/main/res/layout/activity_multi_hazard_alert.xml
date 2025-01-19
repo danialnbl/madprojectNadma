@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for the Page -->
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multihazard Alert"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Weather Alert TextView -->
+    <TextView
+        android:id="@+id/weatherAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Alerts: No alerts at the moment."
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Flood Alert TextView -->
+    <TextView
+        android:id="@+id/floodAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flood Alerts: No alerts at the moment."
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Haze Alert TextView -->
+    <TextView
+        android:id="@+id/hazeAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haze Alerts: No alerts at the moment."
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tsunami Alert TextView -->
+    <TextView
+        android:id="@+id/tsunamiAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tsunami Alerts: No alerts at the moment."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Title for Live Temperature -->
+    <TextView
+        android:id="@+id/liveTemperatureTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live Temperature"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Temperature Display TextView -->
+    <TextView
+        android:id="@+id/temperatureValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25°C"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <!-- Button to Refresh Alerts and Temperature -->
+    <Button
+        android:id="@+id/refreshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh Alerts" />
+
+    <!-- New Button to Refresh Only the Temperature -->
+    <Button
+        android:id="@+id/refreshTemperatureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh Temperature"
+        android:layout_marginTop="16dp"/>
+
+    <!-- RecyclerView for Table-like structure (list format) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- GridView for Table-like structure (grid format) -->
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

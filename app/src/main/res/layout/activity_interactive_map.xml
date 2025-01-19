@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Disaster"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:divider="@android:color/darker_gray" />
+
+    <!-- SHOW EVACUATION ROUTES Button -->
+    <Button
+        android:id="@+id/show_evacuations_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW MAP"
+        android:backgroundTint="#8000FF"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <!-- BACK TO HOME Button -->
+    <Button
+        android:id="@+id/back_to_home_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:backgroundTint="#8000FF"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

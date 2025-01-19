@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "357745314885",
+    "project_id": "loginsignupcd18028",
+    "storage_bucket": "loginsignupcd18028.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357745314885:android:00f05c00a729369dd0672c",
+        "android_client_info": {
+          "package_name": "com.example.athiraloginsignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABfWFxtGAqd-VqXs1Ce2lEX6ZGltaJ2hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357745314885:android:2ee3b81cae36724bd0672c",
+        "android_client_info": {
+          "package_name": "com.example.madproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABfWFxtGAqd-VqXs1Ce2lEX6ZGltaJ2hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
